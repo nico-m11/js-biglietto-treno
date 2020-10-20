@@ -17,3 +17,5 @@ if (age <= 18) {
   console.log(price);
 }
 }
+
+document.getElementById("risult").innerHTML = ("Il costo del tuo boglietto Treno è di €: " + price);
