@@ -1,8 +1,10 @@
 var km = parseInt(prompt("Quanti Km percorriamo?"));
 
-var age = parseInt(prompt("Qaunti anni hai?"));
+var age = parseInt(prompt("Quanti anni hai?"));
 
 var price = 0.21;
+
+
 
 if (!isNaN(km) && !isNaN(age)) {
 
@@ -18,4 +20,4 @@ if (age <= 18) {
  }
 }
 
-document.getElementById("risult").innerHTML = ("Il costo del tuo boglietto Treno è di €: " + price);
+document.getElementById("risult").innerHTML = ("Il costo del tuo boglietto Treno è di €: " + price.toFixed(2));
