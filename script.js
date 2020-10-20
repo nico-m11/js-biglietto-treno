@@ -15,7 +15,7 @@ if (age <= 18) {
 } else {
   price = km * 0.21;
   console.log(price);
-}
+ }
 }
 
 document.getElementById("risult").innerHTML = ("Il costo del tuo boglietto Treno è di €: " + price);
