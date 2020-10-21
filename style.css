@@ -68,8 +68,28 @@ h1 {
   margin-bottom: 3%;
 }
 
-table, th, td {
-  padding: 5px;
-  border: 1px solid black;
-  margin-left: 35%;
+table {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 30px;
+  height: 40%;
+  width: 90%;
+}
+h3 {
+  margin-left: 30px;
+}
+th, td {
+  width: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+#dati {
+  background-color: gray;
+  padding: 30px;
+  font-size: 30px;
+}
+#nomeCognome {
+  background-color: gray;
+  padding: 30px;
+  font-size: 30px;
 }
