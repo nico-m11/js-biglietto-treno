@@ -23,25 +23,35 @@
 var btnG = document.getElementById('btnG');
 
 btnG.addEventListener("click", function () {
-  var nome = document.getElementById("name");
-  var distanza = document.getElementById("km");
-  var ageDiscount = document.getElementById("ageDiscount");
+  var nome = document.getElementById("name").value;
+  var distanza = document.getElementById("km").value;
+  var ageDiscount = document.getElementById("ageDiscount").value;
   var unitPrice = 0.21;
+  var price = 0;
+
+
+
 
 
  if (!isNaN(km) && !isNaN(age)) {
+
   if (optionOne) {
     price = km * unitPrice * 0.8;
+    price = price;
     console.log(price);
 } else if (optionTwo) {
-    price = km * unitPrice * 0.6;
+     price = km * unitPrice * 0.6;
+     price = price;
     console.log(price);
 } else  {
-    price = km * unitPrice;
+     price = km * unitPrice;
+     price = price;
     console.log(price);
 }
 }
-document.getElementById("offerta").innerHTML = ("sconto applicato" + ageDiscount);
-document.getElementById("random").innerHTML = Math.floor(Math.random() * 10);
-document.getElementById("randomDue").innerHTML = Math.floor(Math.random() * 100);document.getElementById("total").innerHTML = ("€" + price);
+document.getElementById("nomeCognome").innerHTML = nome;
+document.getElementById("offerta").innerHTML =  ageDiscount;
+document.getElementById("randomDue").innerHTML = Math.floor(Math.random() * 10);
+document.getElementById("random").innerHTML = Math.floor(Math.random() * 100);
+document.getElementById("total").innerHTML = "€" + price;
 })
