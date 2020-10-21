@@ -1,4 +1,69 @@
-img {
-  height: 70%;
-  width: 50%;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  text-align: center;
+  background-color: #b91450;
+}
+
+.container {
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  color: #b91450;
+  margin-top: 10%;
+}
+
+.name {
+  margin-left: 20%;
+  border: 1px solid #b91450;
+  border-radius: 7px;
+  padding: 5px;
+  width: 70%;
+  margin-top: 2%;
+}
+
+.km {
+  margin-left: 20%;
+  border: 1px solid #b91450;
+  border-radius: 7px;
+  padding: 5px;
+  width: 70%;
+  margin-top: 2%;
+}
+
+.ageDiscount {
+  margin-left: 25%;
+  margin-top: 2%;
+  border: 1px solid #b91450;
+  border-radius: 7px;
+  padding: 5px;
+  width: 70%;
+}
+
+.btnG {
+  margin-left: 40%;
+  padding: 5px;
+  color: #b91450;
+  font-size: 2rem;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+
+.btnA {
+  margin-left: 5%;
+  padding: 5px;
+  color: #b91450;
+  font-size: 2rem;
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-bottom: 3%;
 }

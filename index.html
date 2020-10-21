@@ -4,12 +4,43 @@
     <meta charset="utf-8">
     <title>Prendiamo il Treno</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
-  <body>
-    <h1>Benvenuti alla stazione di Napoli Centrale</h1>
-    <img src="img/1.jpg" alt="stazione">
+  <body style="background-color:#b91450;">
+    <h1 style="color: white;">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
-    <h2 id="risult"></h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4">
+          <h4 class="title">Nome e Cognome</h4>
+          <input class="name" type="text" name="inserisci il tuo Nome" value="">
+
+        </div>
+        <div class="col-xs-4">
+          <h4 class="title">KM di percorrenza</h4>
+          <input class="km" type="number" name="Inserisci il numero dei Km" value="">
+
+        </div>
+        <div class="col-xs-4">
+          <h4 class="title">Fascia d'età</h4>
+          <select class="ageDiscount" name="">
+            <option value="">Minorenne</option>
+            <option value="">Over 65</option>
+          </select>
+          </div>
+          <div class="col-xs-12">
+            <button class="btnG"type="button" name="button">Genera</button>
+            <button class="btnA" type="button" name="button">Annulla</button>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+  <!--  <h2 id="risult"></h2> -->
 
 
 <!-- script -->
