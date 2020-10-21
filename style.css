@@ -67,3 +67,9 @@ h1 {
   margin-top: 10%;
   margin-bottom: 3%;
 }
+
+table, th, td {
+  padding: 5px;
+  border: 1px solid black;
+  margin-left: 35%;
+}
